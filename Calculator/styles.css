@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url("https://i.postimg.cc/L8qm1d74/cali.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.calculator {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+.buttons {
+  width: 232px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: darkolivegreen;
+}
+
+button:active {
+  background-color: darkgoldenrod;
+}
+
+#clear {
+  width: 220px;
+  background-color: darkgreen;
+  font-size: 30px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#clear:hover {
+  background-color: darkorange;
+}
+
+.screen {
+  width: 224px;
+  background-color: darkgreen;
+  font-size: 40px;
+  text-align: end;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#equals {
+  background-color: darkgreen;
+}
+
+#equals:hover {
+  background-color: darkorange;
+}
+
+#equals:active {
+  background-color: darkgoldenrod;
+}

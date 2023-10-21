@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+}
+
+nav {
+  overflow: hidden;
+  border: 5px saddlebrown;
+  position: fixed;
+  width: 100%;
+  top: 32;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav li a {
+  /* display: block; */
+  color: beige;
+  text-align: center;
+  padding: 10px 10px;
+  margin-bottom: 10%;
+  text-decoration: none;
+  position: relative;
+}
+
+nav li a:hover {
+  border-bottom: 5px solid #ff8370;
+}
+
+/* styles.css */
+header {
+  text-align: center;
+  padding: 200px 0;
+  border: 5px solid pink;
+  background-image: url("https://i.postimg.cc/Pq5D9GKb/Untitled-2.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+header > div {
+  border: 5px solid saddlebrown;
+  position: absolute; /* Position the div relative to the header */
+  bottom: 40%; /* Position the div at the bottom of the header */
+  left: 50%; /* Position the div horizontally at 50% */
+  transform: translateX(-50%); /* Center the div horizontally */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Example background color with some transparency */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+#about {
+  text-align: center;
+  padding: 20px 0;
+  border: 5px solid saddlebrown;
+}
+
+#skills,
+#projects,
+#resume,
+#contact {
+  padding: 10px 10%;
+  margin: 10px 10%;
+  border: 5px solid burlywood;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 5px solid blueviolet;
+}
+
+.project {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+  border: 5px solid orangered;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+
+  bottom: 0;
+  width: 100%;
+  border: 5px solid orange;
+}
